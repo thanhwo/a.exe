@@ -5,14 +5,14 @@ string tongHaiNguyenDuongSo(string n1, string n2);
 int main()
 {
   string n1, n2;
-  cin>>n1>>n2;
-  cout<<tongHaiNguyenDuongSo(n1, n2);
+  cin >> n1 >> n2;
+  cout << tongHaiNguyenDuongSo(n1, n2);
   
 }
 
 string tongHaiNguyenDuongSo(string n1, string n2){
     int lena = n1.length(), lenb = n2.length();
-    // lam cho hai so bang do dai cua nhau
+    // lam cho hai so bang nhau
     if(lena < lenb){
         while (lena < lenb){
             n1 = "0" + n1;

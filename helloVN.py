@@ -1,0 +1,1 @@
+print ("Đảng Cộng Sản Việt Nam Quang Vinh Muôn Năm!")
